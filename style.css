@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width:400px) {
+    #desktop-nav {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .logo {
+        font-size: 1.5rem;
+
+    }
+}
+
+.logo {
+    font-size: 2rem;
+
+    margin-left: 15%;
+    margin-top: 1.6%;
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+}
+
+div,
+.nav-links { 
+    gap: 1rem;
+    list-style: none;
+    font-size: 1.5rem;
+    margin-left: 20%;
+    margin-top:1.5% ;
+}
+nav,.nav-links {
+    display: flex;
+
+}
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+@media (max-width: 1200px) {
+    #main-nav {
+        display: flex;
+    }
+}
+.main-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+img {
+    border-radius: 50%;
+}
+
+.pic {  
+    height: 300px;
+    width: 300px;  
+    display: inline-flex;
+}
+#profile{   
+    margin-bottom: 10%;
+}
+.section-text {  
+    display: inline-block;
+    margin-left: 120px;
+    text-align: center;
+    align-self: center;
+}
+.section-text p {
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+    padding-bottom: 0.5rem;
+}
+
+.section-text-p1 {
+    text-align: center;
+}
+.section-text-p2 {
+    font-size: 1.75rem;   
+}
+.title {
+    padding-bottom: 0.5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.section-text h1{
+    display: block;
+}
+.btn{
+    gap: 1rem;
+    display: flex;
+    margin: 25px;  
+}
+.btn1{
+    font-weight: 600;
+    background: none;
+    border: 0.1rem black solid;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.btn2{
+    font-weight: 600;
+    background: black;
+    color: white;
+    border: 0.1rem black solid;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+#socials {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+.aboutme p{
+    text-align: center;
+    font-weight: 100;
+    margin: 0rem;
+
+}
+.aboutme h3{
+    font-size: 3rem;
+    margin: 0rem;
+    text-align: center;
+   
+}
+@media (max-width: 1200px){
+.section-container {
+    height: fit-content;
+}
+}
+@media (max-width: 1200px){
+.section-container {
+    display: block;
+}
+}
+@media  (max-width: 1200px){
+.section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+}
+}
+.about-pic {
+   
+    border-radius: 2rem;
+    height: 200px;
+    width: 200px;
+}
